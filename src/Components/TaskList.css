@@ -1,0 +1,26 @@
+.task-list {
+  position: relative;
+  width: 445px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.task-list .header {
+  height: 44px;
+  background-color: white;
+  opacity: 0.6;
+}
+
+.task-list .title-text {
+  position: absolute;
+  font-size: 24px;
+  line-height: 36px;
+  top: 4px;
+  left: 16px;
+  color: white;
+}
+
+.task-list .list {
+  overflow: scroll;
+  height: calc(100% - 44px);
+}

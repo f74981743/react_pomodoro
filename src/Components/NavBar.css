@@ -1,0 +1,35 @@
+.nav-bar {
+  position: absolute;
+  width: 36px;
+  height: 100%;
+  right: 85px;
+}
+
+.nav-bar i {
+  color: white;
+  font-size: 36px;
+  margin-top: 48px;
+  cursor: pointer;
+}
+
+.nav-bar i:first-child {
+  margin-top: 36px;
+}
+
+.logo {
+  width: 165px;
+  height: 31px;
+  font-size: 24px;
+  font-family: Futura;
+  font-weight: bold;
+}
+
+.more {
+  position: absolute;
+  bottom: 40px;
+  left: 486px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #ff4384;
+  cursor: pointer;
+}
